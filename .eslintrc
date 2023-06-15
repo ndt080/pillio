@@ -31,17 +31,29 @@
   "rules": {
     "global-require": "off",
     "react/react-in-jsx-scope": "off",
+    "react/jsx-no-useless-fragment": "off",
     "unicorn/no-null": "off",
     "unicorn/prefer-query-selector": "off",
+    "import/prefer-default-export": "off",
     "unicorn/prevent-abbreviations": "off",
     "@typescript-eslint/no-use-before-define": "off",
     "react/function-component-definition": "off",
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
     "@typescript-eslint/naming-convention": [
       "error",
       {
-        "selector": ["enum", "enumMember"],
-        "format": ["StrictPascalCase"]
+        "selector": [
+          "enum",
+          "enumMember"
+        ],
+        "format": [
+          "StrictPascalCase"
+        ]
       }
     ],
     "unicorn/filename-case": [

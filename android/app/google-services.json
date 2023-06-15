@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "769464594477",
+    "project_id": "pillio-6d87d",
+    "storage_bucket": "pillio-6d87d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769464594477:android:16d04907dfcd2632e908a4",
+        "android_client_info": {
+          "package_name": "com.pillio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769464594477-b3fh16rg9ao08g6fa96j2tn4p2tsgipr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU3tq_qcicNW00KSAfhw_dKkQKnn_QLPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769464594477-b3fh16rg9ao08g6fa96j2tn4p2tsgipr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

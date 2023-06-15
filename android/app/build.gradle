@@ -1,4 +1,5 @@
 apply plugin: "com.android.application"
+apply plugin: "com.google.gms.google-services"
 apply plugin: "com.facebook.react"
 
 import com.android.build.OutputFile
@@ -90,12 +91,12 @@ def reactNativeArchitectures() {
 
 android {
     ndkVersion rootProject.ext.ndkVersion
+    compileSdk rootProject.ext.compileSdkVersion
 
-    compileSdkVersion rootProject.ext.compileSdkVersion
 
     namespace "com.pillio"
     defaultConfig {
-        applicationId "com.pillio"
+        applicationId 'com.pillio'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
