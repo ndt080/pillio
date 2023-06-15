@@ -14,6 +14,7 @@ module.exports = {
           '@features': './src/features',
           '@processes': './src/processes',
           '@shared': './src/shared',
+          '@styles': './src/styles',
         },
       },
     ],

@@ -2,7 +2,7 @@ import React from 'react';
 import { SafeAreaView, ScrollView, StatusBar, View } from 'react-native';
 
 import { Colors, Header } from 'react-native/Libraries/NewAppScreen';
-import { useTheme } from '@shared/theme';
+import { useTheme } from './shared/theme';
 
 function App() {
   const isDarkMode = useTheme() === 'dark';

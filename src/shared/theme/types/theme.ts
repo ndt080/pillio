@@ -1,5 +1,27 @@
 export interface Theme {
-  fonts: Record<string, string>;
-  fontSizes: Record<string, number>;
-  colors: Record<string, string>;
+  fonts: {
+    primary: string;
+    [key: string]: string;
+  };
+  fontSizes: {
+    L: number;
+    M: number;
+    S: number;
+    XS: number;
+    [key: string]: number;
+  };
+  fontWeight: {
+    SemiBold: number;
+    Medium: number;
+    Regular: number;
+    [key: string]: number;
+  };
+  colors: {
+    primary: string;
+    secondary: string;
+    success: string;
+    error: string;
+    warning: string;
+    [key: string]: string;
+  };
 }
