@@ -2,3 +2,4 @@
 babel.config.js
 index.js
 metro.config.js
+__tests__

@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface AwesomeReactNativeTemplateTests : XCTestCase
+@interface pillioTests : XCTestCase
 
 @end
 
-@implementation AwesomeReactNativeTemplateTests
+@implementation pillioTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

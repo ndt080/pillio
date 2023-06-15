@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "AwesomeReactNativeTemplate.app"
-               BlueprintName = "AwesomeReactNativeTemplate"
-               ReferencedContainer = "container:AwesomeReactNativeTemplate.xcodeproj">
+               BuildableName = "pillio.app"
+               BlueprintName = "pillio"
+               ReferencedContainer = "container:pillio.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "AwesomeReactNativeTemplateTests.xctest"
-               BlueprintName = "AwesomeReactNativeTemplateTests"
-               ReferencedContainer = "container:AwesomeReactNativeTemplate.xcodeproj">
+               BuildableName = "pillioTests.xctest"
+               BlueprintName = "pillioTests"
+               ReferencedContainer = "container:pillio.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AwesomeReactNativeTemplate.app"
-            BlueprintName = "AwesomeReactNativeTemplate"
-            ReferencedContainer = "container:AwesomeReactNativeTemplate.xcodeproj">
+            BuildableName = "pillio.app"
+            BlueprintName = "pillio"
+            ReferencedContainer = "container:pillio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AwesomeReactNativeTemplate.app"
-            BlueprintName = "AwesomeReactNativeTemplate"
-            ReferencedContainer = "container:AwesomeReactNativeTemplate.xcodeproj">
+            BuildableName = "pillio.app"
+            BlueprintName = "pillio"
+            ReferencedContainer = "container:pillio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

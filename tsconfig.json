@@ -3,7 +3,9 @@
   "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
-    "lib": ["ESNext"],
+    "lib": [
+      "ESNext"
+    ],
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": false,
@@ -22,5 +24,9 @@
     "noImplicitThis": true,
     "strictNullChecks": true
   },
-  "include": ["src", "App.tsx"],
+  "include": [
+    "src",
+    "src/App.tsx",
+    "__tests__"
+  ]
 }

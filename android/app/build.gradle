@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.awesomereactnativetemplate"
+    namespace "com.pillio"
     defaultConfig {
-        applicationId "com.awesomereactnativetemplate"
+        applicationId "com.pillio"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

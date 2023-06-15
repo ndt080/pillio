@@ -1,4 +1,4 @@
-package com.awesomereactnativetemplate;
+package com.pillio;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
