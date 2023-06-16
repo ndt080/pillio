@@ -1,34 +1,40 @@
 import {
   AuthScreen,
   HomeScreen,
+  MedicationDetailsScreen,
   MedicationsScreen,
   ProfileScreen,
   SettingsScreen,
 } from '@screens/index';
-import { Screen, ScreenName } from '@processes/navigation';
+import { Screen } from '@processes/navigation';
+import { ScreenNames } from './screenName';
 
 export const Screens: Screen[] = [
   {
-    name: ScreenName.Home,
+    name: ScreenNames.Home,
     view: HomeScreen,
     options: { title: 'Home' },
   },
   {
-    name: ScreenName.Auth,
+    name: ScreenNames.Auth,
     view: AuthScreen,
   },
   {
-    name: ScreenName.Medications,
+    name: ScreenNames.Medications,
     view: MedicationsScreen,
     options: { title: 'Medications' },
   },
   {
-    name: ScreenName.Profile,
+    name: ScreenNames.MedicationDetails,
+    view: MedicationDetailsScreen,
+  },
+  {
+    name: ScreenNames.Profile,
     view: ProfileScreen,
     options: { title: 'Profile' },
   },
   {
-    name: ScreenName.Settings,
+    name: ScreenNames.Settings,
     view: SettingsScreen,
     options: { title: 'Settings' },
   },

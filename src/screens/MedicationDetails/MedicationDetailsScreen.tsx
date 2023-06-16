@@ -2,7 +2,7 @@ import { SafeAreaView, ScrollView, View } from 'react-native';
 import React from 'react';
 import { CustomStatusBar } from '@features/CustomStatusBar';
 
-function HomeScreen() {
+function MedicationDetailsScreen() {
   return (
     <SafeAreaView>
       <CustomStatusBar />
@@ -13,4 +13,4 @@ function HomeScreen() {
   );
 }
 
-export default HomeScreen;
+export default MedicationDetailsScreen;

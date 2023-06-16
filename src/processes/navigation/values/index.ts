@@ -1,2 +1,2 @@
 export * from './screenName';
-export * from './Screens';
+export * from './screens';
