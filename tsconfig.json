@@ -40,6 +40,9 @@
       "@processes/*": [
         "src/processes/*"
       ],
+      "@screens/*": [
+        "src/screens/*"
+      ],
       "@shared/*": [
         "src/shared/*"
       ],

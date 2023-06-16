@@ -15,6 +15,7 @@ module.exports = {
           '@processes': './src/processes',
           '@shared': './src/shared',
           '@styles': './src/styles',
+          '@screens': './src/screens',
         },
       },
     ],
